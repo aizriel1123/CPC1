@@ -1,13 +1,14 @@
-data = 0
-total = 0
+data1 = 0
+data2 = 0
 num = input("Enter a number or press Enter to quit: ")
 
 while num:
-    data += 1
-    total += float(num)
+    data1 += 1
+    data2 += float(num)
     num = input("Enter a number or press Enter to quit: ")
+    total = data1/data2
 
-print("The sum is", total, "\nThe average is", total / data)
+print("The sum is", data2, "\nThe average is", total)
 
 
 
